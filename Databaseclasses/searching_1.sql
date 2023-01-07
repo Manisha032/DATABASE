@@ -17,6 +17,11 @@ SELECT
 ord_num,
 ord_amount, 
 advance_amount,
-ord_amount - advance_amount AS remaining
+ord_amount - advance_amount  AS remaining
 FROM orders 
+ORDER BY remaining DESC;
+
+SELECT
+advance_amount- ord_amount AS remaining
+from orders
 ORDER BY remaining DESC;
