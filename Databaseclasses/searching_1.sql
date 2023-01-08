@@ -13,6 +13,11 @@ SELECT * FROM orders
 WHERE ord_amount 
 BETWEEN 3000 AND 4000;
 
+SELECT * FROM orders
+WHERE advance_amount
+BETWEEN 800 AND 900;
+
+
 SELECT 
 ord_num,
 ord_amount, 
