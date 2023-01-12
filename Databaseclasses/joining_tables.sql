@@ -18,15 +18,15 @@ ORDER BY
 
 -- Expenses and project
 SELECT
-    expenses.id, expenses.amount, 
-    expenses.description,
-    projects.name,  projects.id
+    e.id, e.amount, 
+    e.description,
+    p.name,  p.id
 FROM
-    expenses , projects
+    expenses as e , projects as p
 WHERE
-    expenses.project_id = projects.id 
+    e.project_id = p.id 
 ORDER BY
-    projects.id;
+    p.id;
 
 -- roles and roles user
 SELECT
