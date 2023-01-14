@@ -9,3 +9,4 @@ INSERT INTO employee(first_name, last_name) VALUES('John', 'Doe');
 INSERT INTO employee(first_name, last_name) VALUES('Alex', 'Smith');
 INSERT INTO employee(first_name, last_name) VALUES('Sam', 'Parker');
 INSERT INTO employee(first_name, last_name) VALUES('RAM', 'SHARMA');
+INSERT INTO employee(first_name, last_name) VALUES('RIA', 'BHARTI');
